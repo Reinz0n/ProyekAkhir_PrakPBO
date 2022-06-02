@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GajiKaryawanGUI">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/GajiKaryawanGUI.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

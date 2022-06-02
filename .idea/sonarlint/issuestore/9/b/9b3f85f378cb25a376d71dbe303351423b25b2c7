@@ -1,0 +1,147 @@
+
+^
+java:S1192O"HDefine a constant instead of duplicating this literal "Dialog" 17 times.(‘íœÇ
+\
+java:S1192["FDefine a constant instead of duplicating this literal "tNama" 3 times.(¾•ó½
+g
+java:S1192V"LDefine a constant instead of duplicating this literal "DialogInput" 7 times.(‚Å÷Õùÿÿÿÿ
+]
+java:S1192½"GDefine a constant instead of duplicating this literal "Sukses" 4 times.(ûòˆB
+\
+java:S1192´"FDefine a constant instead of duplicating this literal "Error" 3 times.(Í·’
+f
+java:S1192¦"JDefine a constant instead of duplicating this literal "namaInput" 4 times.(ïæÕÇúÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¢
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥âÅÛúÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÏ¡ä
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õö›èşÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ª©´
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·’âùÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¸ù÷úÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈõŸæ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö•ãøÿÿÿÿ
+k	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áúâıÿÿÿÿ
+l	java:S117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ÃĞëüÿÿÿÿ
+l	java:S117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ıÑëıÿÿÿÿ
+l	java:S117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õä¢ñúÿÿÿÿ
+>
+java:S1604z"(Make this anonymous inner class a lambda(±´à€
+D
+java:S1604Š"(Make this anonymous inner class a lambda(€«×Üüÿÿÿÿ
+?
+java:S1604š"(Make this anonymous inner class a lambda( İ“Î
+?
+java:S1604Ö"(Make this anonymous inner class a lambda(ÔµÉ¿
+?
+java:S1604"(Make this anonymous inner class a lambda(»§®ğ
+D
+java:S1604‘"(Make this anonymous inner class a lambda(Æ‚Êßÿÿÿÿÿ
+D
+java:S1604¡"(Make this anonymous inner class a lambda(˜Şóùÿÿÿÿ
+D
+java:S1604»"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(†¼‚šúÿÿÿÿ
+S
+java:S4973ı"<Strings and Boxed types should be compared using "equals()".(‘âÅ·
+X
+java:S4973€"<Strings and Boxed types should be compared using "equals()".(†ö¶¥úÿÿÿÿ
+S
+java:S4973ƒ"<Strings and Boxed types should be compared using "equals()".(ƒäÿ‚
+S
+java:S4973†"<Strings and Boxed types should be compared using "equals()".(­Ó¸¾
+X
+java:S4973‰"<Strings and Boxed types should be compared using "equals()".(Éâªùÿÿÿÿ
+k
+java:S1450Ã"URemove the "bHapus" field and declare it as a local variable in the relevant methods.(ë¢ı
+q
+java:S1450Ä"URemove the "bHarga" field and declare it as a local variable in the relevant methods.(‹ø‡–ùÿÿÿÿ
+r
+java:S1450Å"VRemove the "bKeluar" field and declare it as a local variable in the relevant methods.(¹™úŠøÿÿÿÿ
+n
+java:S1450Æ"WRemove the "bRefresh" field and declare it as a local variable in the relevant methods.(òç
+m
+java:S1450Ç"VRemove the "bSimpan" field and declare it as a local variable in the relevant methods.(„î’Ø
+k
+java:S1450È"TRemove the "bUbah" field and declare it as a local variable in the relevant methods.(Ä·•å
+r
+java:S1450Ê"VRemove the "jLabel2" field and declare it as a local variable in the relevant methods.(™úòˆüÿÿÿÿ
+m
+java:S1450Ë"VRemove the "jLabel4" field and declare it as a local variable in the relevant methods.(«¢•ã
+r
+java:S1450Ì"VRemove the "jPanel1" field and declare it as a local variable in the relevant methods.(´œ½ÿÿÿÿÿ
+w
+java:S1450Í"[Remove the "jScrollPane1" field and declare it as a local variable in the relevant methods.(¤á×ÿÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(åù—¤ıÿÿÿÿ
+E
+java:S1197!"*Move the array designators [] to the type.(„Ğ‰˜ÿÿÿÿÿ
+\
+java:S3252X"AUse static access with "javax.swing.SwingConstants" for "CENTER".(¢ƒ„üúÿÿÿÿ
+P
+java:S1161b":Add the "@Override" annotation above this method signature(†ŒË³
+W
+java:S3252k"AUse static access with "javax.swing.SwingConstants" for "CENTER".(÷®¡«
+X
+java:S3252£"AUse static access with "javax.swing.SwingConstants" for "CENTER".(İÖù¬
+V
+java:S1161¨":Add the "@Override" annotation above this method signature(Õş°ıüÿÿÿÿ
+X
+java:S3252°"AUse static access with "javax.swing.SwingConstants" for "CENTER".(ã¤¹Ş
+V
+java:S1161µ":Add the "@Override" annotation above this method signature(Õş°ıüÿÿÿÿ
+X
+java:S3252½"AUse static access with "javax.swing.SwingConstants" for "CENTER".(´Ö•
+V
+java:S1161Â":Add the "@Override" annotation above this method signature(Õş°ıüÿÿÿÿ
+X
+java:S3252Ê"AUse static access with "javax.swing.SwingConstants" for "CENTER".(ÂÂ±¬
+X
+java:S3252Ò"AUse static access with "javax.swing.SwingConstants" for "CENTER".(—‰ÃÄ
+V
+java:S1161Ü":Add the "@Override" annotation above this method signature(Õş°ıüÿÿÿÿ
+Q
+java:S1161ñ":Add the "@Override" annotation above this method signature(†ŒË³
+=
+java:S1110“"!Remove these useless parentheses.(¬õ‰İúÿÿÿÿ
+A
+java:S1172š"*Remove this unused method parameter "evt".(Æöñ‚
+N
+java:S1135›"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+@
+java:S1172"*Remove this unused method parameter "evt".(ëÚ… 
+N
+java:S1135Ÿ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+A
+java:S1172¢"*Remove this unused method parameter "evt".(ë¬½ò
+N
+java:S1135£"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+F
+java:S1172¦"*Remove this unused method parameter "evt".(ÕØ“£úÿÿÿÿ
+N
+java:S1135§"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+@
+java:S1172ª"*Remove this unused method parameter "evt".(Úçê7
+A
+java:S1172²"*Remove this unused method parameter "evt".(Ñäâ¯
+F
+java:S1172Å"*Remove this unused method parameter "evt".(åß¡ºøÿÿÿÿ
+F
+java:S1172Ş"*Remove this unused method parameter "evt".(€ÆÄ¹ÿÿÿÿÿ
+F
+java:S1172â"*Remove this unused method parameter "evt".(‡©´Ÿøÿÿÿÿ
+A
+java:S1172ô"*Remove this unused method parameter "evt".(¬Ã³Õ
+A
+java:S1172ø"*Remove this unused method parameter "evt".(ÕÃôŒ
+B
+java:S1905"&Remove this unnecessary cast to "int".(Ò€Ïúÿÿÿÿ
+A
+java:S1172"*Remove this unused method parameter "evt".(„›ÔĞ
+F
+java:S1197¢"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+\
+java:S2147±"ECombine this catch with the one at line 559, which has the same body.(¨¦Š½
+\
+java:S2147³"ECombine this catch with the one at line 559, which has the same body.(ã€ 
+[
+java:S2147µ"ECombine this catch with the one at line 559, which has the same body.(ñÎ¯%

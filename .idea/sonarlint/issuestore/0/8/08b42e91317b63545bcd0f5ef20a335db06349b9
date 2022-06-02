@@ -1,0 +1,39 @@
+
+]
+java:S1192"GDefine a constant instead of duplicating this literal "Dialog" 5 times.(¨ñÎÒ
+C
+java:S1604>"(Make this anonymous inner class a lambda(çÍøÿÿÿÿ
+>
+java:S1604N"(Make this anonymous inner class a lambda( İ“Î
+D
+java:S1604À"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Å©ÇÄ
+r
+java:S1450È"VRemove the "bKeluar" field and declare it as a local variable in the relevant methods.(¹™úŠøÿÿÿÿ
+q
+java:S1450É"URemove the "bLogin" field and declare it as a local variable in the relevant methods.( ²¯ñÿÿÿÿÿ
+r
+java:S1450Ê"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(°ãÉ¸ÿÿÿÿÿ
+r
+java:S1450Ë"VRemove the "jPanel1" field and declare it as a local variable in the relevant methods.(´œ½ÿÿÿÿÿ
+W
+java:S3252("AUse static access with "javax.swing.SwingConstants" for "CENTER".(ã¤¹Ş
+W
+java:S32520"AUse static access with "javax.swing.SwingConstants" for "CENTER".(´Ö•
+@
+java:S1172ƒ"*Remove this unused method parameter "evt".(ô‰V
+F
+java:S1874„"/Remove this use of "getText"; it is deprecated.(Áì„
+K
+java:S1874‰"/Remove this use of "getText"; it is deprecated.(€¦Ü®ıÿÿÿÿ
+W	java:S125‹"<This block of commented-out lines of code should be removed.(Ù‡Ñùÿÿÿÿ
+@
+java:S1172œ"*Remove this unused method parameter "evt".(Úçê7
+F
+java:S1197§"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+\
+java:S2147¶"ECombine this catch with the one at line 180, which has the same body.(¨¦Š½
+\
+java:S2147¸"ECombine this catch with the one at line 180, which has the same body.(ã€ 
+[
+java:S2147º"ECombine this catch with the one at line 180, which has the same body.(ñÎ¯%
