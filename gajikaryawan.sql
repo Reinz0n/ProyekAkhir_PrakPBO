@@ -1,21 +1,20 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
--- https://www.phpmyadmin.net/
+-- version 4.2.7.1
+-- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 02, 2022 at 05:30 PM
--- Server version: 10.4.21-MariaDB
--- PHP Version: 8.0.10
+-- Generation Time: 02 Jun 2022 pada 16.47
+-- Versi Server: 5.5.39
+-- PHP Version: 5.4.31
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
 SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
 
 --
 -- Database: `gajikaryawan`
@@ -24,11 +23,11 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `karyawan`
+-- Struktur dari tabel `karyawan`
 --
 
-CREATE TABLE `karyawan` (
-  `no` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `karyawan` (
+`no` int(11) NOT NULL,
   `nama` varchar(55) NOT NULL,
   `alamat` varchar(50) NOT NULL,
   `umur` int(11) NOT NULL,
@@ -37,14 +36,14 @@ CREATE TABLE `karyawan` (
   `gaji` varchar(11) NOT NULL,
   `username` varchar(20) NOT NULL,
   `password` varchar(20) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
 
 --
--- Dumping data for table `karyawan`
+-- Dumping data untuk tabel `karyawan`
 --
 
 INSERT INTO `karyawan` (`no`, `nama`, `alamat`, `umur`, `tgl_diterima`, `golongan`, `gaji`, `username`, `password`) VALUES
-(4, 'test1', 'alamat test1', 17, '2002-07-30', 1, '1,750,000', 'test1', 'test1pw');
+(3, 'minho', 'malang', 22, '2022-02-02', 4, '5.950.000', 'minho', 'minho');
 
 --
 -- Indexes for dumped tables
@@ -54,7 +53,7 @@ INSERT INTO `karyawan` (`no`, `nama`, `alamat`, `umur`, `tgl_diterima`, `golonga
 -- Indexes for table `karyawan`
 --
 ALTER TABLE `karyawan`
-  ADD PRIMARY KEY (`no`);
+ ADD PRIMARY KEY (`no`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -64,9 +63,7 @@ ALTER TABLE `karyawan`
 -- AUTO_INCREMENT for table `karyawan`
 --
 ALTER TABLE `karyawan`
-  MODIFY `no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-COMMIT;
-
+MODIFY `no` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
