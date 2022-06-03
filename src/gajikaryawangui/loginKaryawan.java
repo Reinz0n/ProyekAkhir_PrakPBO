@@ -212,7 +212,7 @@ public class loginKaryawan extends javax.swing.JFrame {
     private javax.swing.JButton bLogin;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPasswordField tPassword;
-    private javax.swing.JTextField tUsername;
+    public static javax.swing.JPasswordField tPassword;
+    public static javax.swing.JTextField tUsername;
     // End of variables declaration//GEN-END:variables
 }

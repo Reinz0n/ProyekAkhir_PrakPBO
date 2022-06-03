@@ -13,12 +13,13 @@ public class formKaryawan extends javax.swing.JFrame {
 
     public formKaryawan() {
         initComponents();
+        selectData();
     }
     public void selectData() {
         String kolom[] = {"No", "Nama", "Alamat", "Umur", "Tgl Diterima", "Golongan", "Gaji", "Username", "Password"};
         DefaultTableModel dtm = new DefaultTableModel(null, kolom);
-        String SQL = "SELECT * FROM karyawan";
-        ResultSet rs = koneksiDB.executeQuery(SQL);
+        String SQL = "SELECT * FROM karyawan WHERE username='"+loginKaryawan.tUsername.getText()+"' AND password='"+loginKaryawan.tPassword.getText()+"'";
+              ResultSet rs = koneksiDB.executeQuery(SQL);
         try {
             while(rs.next()) {
                 String No               = rs.getString(1);
@@ -126,7 +127,7 @@ public class formKaryawan extends javax.swing.JFrame {
             }
         });
 
-        bKeluar.setBackground(new java.awt.Color(255, 204, 255));
+        bKeluar.setBackground(new java.awt.Color(204, 0, 51));
         bKeluar.setFont(new java.awt.Font("Dialog", 1, 15)); // NOI18N
         bKeluar.setForeground(new java.awt.Color(255, 255, 255));
         bKeluar.setText("Keluar");
@@ -235,7 +236,7 @@ public class formKaryawan extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(tabel);
 
-        bUbah.setBackground(new java.awt.Color(255, 255, 153));
+        bUbah.setBackground(new java.awt.Color(255, 204, 0));
         bUbah.setFont(new java.awt.Font("Dialog", 1, 15)); // NOI18N
         bUbah.setForeground(new java.awt.Color(255, 255, 255));
         bUbah.setText("Ubah");
@@ -251,7 +252,7 @@ public class formKaryawan extends javax.swing.JFrame {
             }
         });
 
-        bRefresh.setBackground(new java.awt.Color(102, 255, 204));
+        bRefresh.setBackground(new java.awt.Color(0, 204, 204));
         bRefresh.setFont(new java.awt.Font("Dialog", 1, 15)); // NOI18N
         bRefresh.setForeground(new java.awt.Color(255, 255, 255));
         bRefresh.setText("Refresh");
@@ -397,10 +398,10 @@ public class formKaryawan extends javax.swing.JFrame {
     }//GEN-LAST:event_bHargaActionPerformed
 
     private void bKeluarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bKeluarActionPerformed
-        loginAdmin admin = new loginAdmin();
-        admin.pack();
-        admin.setLocationRelativeTo(null);
-        admin.setVisible(true);
+        menuLogin menu = new menuLogin();
+        menu.pack();
+        menu.setLocationRelativeTo(null);
+        menu.setVisible(true);
         dispose();
     }//GEN-LAST:event_bKeluarActionPerformed
 

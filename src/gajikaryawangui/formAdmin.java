@@ -125,7 +125,7 @@ public void selectData() {
             }
         });
 
-        bSimpan.setBackground(new java.awt.Color(153, 255, 153));
+        bSimpan.setBackground(new java.awt.Color(0, 153, 0));
         bSimpan.setFont(new java.awt.Font("Dialog", 1, 15)); // NOI18N
         bSimpan.setForeground(new java.awt.Color(255, 255, 255));
         bSimpan.setText("Simpan");
@@ -141,7 +141,7 @@ public void selectData() {
             }
         });
 
-        bKeluar.setBackground(new java.awt.Color(255, 204, 255));
+        bKeluar.setBackground(new java.awt.Color(204, 0, 51));
         bKeluar.setFont(new java.awt.Font("Dialog", 1, 15)); // NOI18N
         bKeluar.setForeground(new java.awt.Color(255, 255, 255));
         bKeluar.setText("Keluar");
@@ -244,7 +244,7 @@ public void selectData() {
         });
         jScrollPane1.setViewportView(tabel);
 
-        bUbah.setBackground(new java.awt.Color(255, 255, 153));
+        bUbah.setBackground(new java.awt.Color(255, 204, 0));
         bUbah.setFont(new java.awt.Font("Dialog", 1, 15)); // NOI18N
         bUbah.setForeground(new java.awt.Color(255, 255, 255));
         bUbah.setText("Ubah");
@@ -260,7 +260,7 @@ public void selectData() {
             }
         });
 
-        bRefresh.setBackground(new java.awt.Color(102, 255, 204));
+        bRefresh.setBackground(new java.awt.Color(0, 204, 204));
         bRefresh.setFont(new java.awt.Font("Dialog", 1, 15)); // NOI18N
         bRefresh.setForeground(new java.awt.Color(255, 255, 255));
         bRefresh.setText("Refresh");
@@ -276,7 +276,7 @@ public void selectData() {
             }
         });
 
-        bHapus.setBackground(new java.awt.Color(255, 102, 102));
+        bHapus.setBackground(new java.awt.Color(204, 51, 0));
         bHapus.setFont(new java.awt.Font("Dialog", 1, 15)); // NOI18N
         bHapus.setForeground(new java.awt.Color(255, 255, 255));
         bHapus.setText("Hapus");
@@ -424,10 +424,10 @@ public void selectData() {
     }//GEN-LAST:event_tTanggalKeyTyped
 
     private void bKeluarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bKeluarActionPerformed
-        loginAdmin admin = new loginAdmin();
-        admin.pack();
-        admin.setLocationRelativeTo(null);
-        admin.setVisible(true);
+        menuLogin menu = new menuLogin();
+        menu.pack();
+        menu.setLocationRelativeTo(null);
+        menu.setVisible(true);
         dispose();
     }//GEN-LAST:event_bKeluarActionPerformed
 

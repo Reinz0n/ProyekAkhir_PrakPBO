@@ -1,0 +1,61 @@
+
+]
+java:S1192("GDefine a constant instead of duplicating this literal "Dialog" 5 times.(¨ñÎÒ
+g	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı°–“
+C
+java:S1604G"(Make this anonymous inner class a lambda(çÍøÿÿÿÿ
+>
+java:S1604W"(Make this anonymous inner class a lambda( İ“Î
+D
+java:S1604Ë"(Make this anonymous inner class a lambda(¨í¡§úÿÿÿÿ
+l
+java:S1104×"UMake tPassword a static final constant or non-public and provide accessors if needed.(›ù¼µ
+q
+java:S1104Ø"UMake tUsername a static final constant or non-public and provide accessors if needed.(½ïÓƒúÿÿÿÿ
+F
+java:S1444×"/Make this "public static tPassword" field final(›ù¼µ
+K
+java:S1444Ø"/Make this "public static tUsername" field final(½ïÓƒúÿÿÿÿ
+b	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ä¾ş
+r
+java:S1450Ó"VRemove the "bKeluar" field and declare it as a local variable in the relevant methods.(¹™úŠøÿÿÿÿ
+q
+java:S1450Ô"URemove the "bLogin" field and declare it as a local variable in the relevant methods.( ²¯ñÿÿÿÿÿ
+r
+java:S1450Õ"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(°ãÉ¸ÿÿÿÿÿ
+r
+java:S1450Ö"VRemove the "jPanel1" field and declare it as a local variable in the relevant methods.(´œ½ÿÿÿÿÿ
+@
+java:S1948"%Make "con" transient or serializable.(úú–ùşÿÿÿÿ
+A
+java:S1948"&Make "stat" transient or serializable.(Êñ¶ÿøÿÿÿÿ
+:
+java:S1948"$Make "rs" transient or serializable.(¶¨ÜŒ
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(õ”ôÖúÿÿÿÿ
+L
+java:S2696 "6Make the enclosing method "static" or remove this set.(£¿Ö¯
+W
+java:S32521"AUse static access with "javax.swing.SwingConstants" for "CENTER".(ã¤¹Ş
+W
+java:S32529"AUse static access with "javax.swing.SwingConstants" for "CENTER".(´Ö•
+@
+java:S1172Œ"*Remove this unused method parameter "evt".(ô‰V
+F
+java:S1874"/Remove this use of "getText"; it is deprecated.(Áì„
+F
+java:S1874‘"/Remove this use of "getText"; it is deprecated.(ı°–“
+L
+java:S1117’"6Rename "rs" which hides the field declared at line 14.(ô­¼
+K
+java:S1874”"/Remove this use of "getText"; it is deprecated.(ñƒäèüÿÿÿÿ
+@
+java:S1172§"*Remove this unused method parameter "evt".(Úçê7
+F
+java:S1197²"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+\
+java:S2147Á"ECombine this catch with the one at line 191, which has the same body.(¨¦Š½
+\
+java:S2147Ã"ECombine this catch with the one at line 191, which has the same body.(ã€ 
+[
+java:S2147Å"ECombine this catch with the one at line 191, which has the same body.(ñÎ¯%
