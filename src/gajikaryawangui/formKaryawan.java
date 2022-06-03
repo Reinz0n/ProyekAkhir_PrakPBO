@@ -71,6 +71,7 @@ public class formKaryawan extends javax.swing.JFrame {
         tabel = new javax.swing.JTable();
         bUbah = new javax.swing.JButton();
         bRefresh = new javax.swing.JButton();
+        tNo = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -268,6 +269,15 @@ public class formKaryawan extends javax.swing.JFrame {
             }
         });
 
+        tNo.setEditable(false);
+        tNo.setBackground(new java.awt.Color(242, 243, 247));
+        tNo.setFont(new java.awt.Font("DialogInput", 0, 15)); // NOI18N
+        tNo.setForeground(new java.awt.Color(122, 129, 140));
+        tNo.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        tNo.setToolTipText("");
+        tNo.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(122, 129, 140), 2, true), "No", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.TOP, new java.awt.Font("Dialog", 1, 15), new java.awt.Color(122, 129, 140))); // NOI18N
+        tNo.setName("tNama"); // NOI18N
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -283,7 +293,9 @@ public class formKaryawan extends javax.swing.JFrame {
                                 .addGap(23, 23, 23)
                                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 726, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(127, 127, 127)
+                                .addGap(41, 41, 41)
+                                .addComponent(tNo, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                                         .addComponent(tUmur, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -317,7 +329,9 @@ public class formKaryawan extends javax.swing.JFrame {
                 .addComponent(jLabel2)
                 .addGap(29, 29, 29)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(tNama, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(tNama, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(tNo, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addComponent(bHarga, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(cbGolongan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -433,7 +447,7 @@ public class formKaryawan extends javax.swing.JFrame {
     private void tabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tabelMouseClicked
         int baris = tabel.getSelectedRow();
         if (baris != -1) {
-
+            tNo.setText(tabel.getValueAt(baris, 0).toString());
             tNama.setText(tabel.getValueAt(baris, 1).toString());
             tAlamat.setText(tabel.getValueAt(baris, 2).toString());
             tUmur.setText(tabel.getValueAt(baris, 3).toString());
@@ -459,7 +473,7 @@ public class formKaryawan extends javax.swing.JFrame {
             + "gaji='"+tGaji.getText()+"', "
             + "username='"+tUsername.getText()+"', "
             + "password='"+tPassword.getText()+"' "
-            + "WHERE nama='"+tNama.getText()+"'";
+            + "WHERE no='"+tNo.getText()+"'";
             int status = koneksiDB.execute(SQL);
             if (status == 1) {
                 JOptionPane.showMessageDialog(this, "Data Berhasil Diubah", "Sukses", JOptionPane.INFORMATION_MESSAGE);
@@ -522,6 +536,7 @@ public class formKaryawan extends javax.swing.JFrame {
     private javax.swing.JTextField tAlamat;
     private javax.swing.JTextField tGaji;
     private javax.swing.JTextField tNama;
+    private javax.swing.JTextField tNo;
     private javax.swing.JTextField tPassword;
     private javax.swing.JTextField tTanggal;
     private javax.swing.JTextField tUmur;

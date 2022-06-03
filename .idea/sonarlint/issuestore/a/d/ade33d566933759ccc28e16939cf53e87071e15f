@@ -7,6 +7,10 @@ b	java:S101
 java:S2259,"EA "NullPointerException" could be thrown; "koneksi" is nullable here.(ÕôáÈøÿÿÿÿ
 `
 java:S2259 "EA "NullPointerException" could be thrown; "koneksi" is nullable here.(ÕôáÈøÿÿÿÿ
+i
+java:S2095 "GUse try-with-resources or close this "Statement" in a "finally" clause.(ÕôáÈøÿÿÿÿ8İÉ¼Í’0
+i
+java:S2095,"GUse try-with-resources or close this "Statement" in a "finally" clause.(ÕôáÈøÿÿÿÿ8İÉ¼Í’0
 P
 java:S1118
 ":Add a private constructor to hide the implicit public one.(¨ øû
